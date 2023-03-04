@@ -1,6 +1,9 @@
 package global
 
-import "blog/config"
+import (
+	"blog/config"
+	"gorm.io/gorm"
+)
 
 /**
 *@Author: whh
@@ -9,4 +12,5 @@ import "blog/config"
 
 var (
 	Config *config.Config
+	DB     *gorm.DB
 )

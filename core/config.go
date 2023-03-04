@@ -2,6 +2,7 @@ package core
 
 import (
 	"blog/config"
+	"blog/global"
 	"fmt"
 	"gopkg.in/yaml.v2"
 	"io/ioutil"
@@ -25,5 +26,5 @@ func InitCore() {
 		log.Fatalf("config Init unmarshal: %s", err)
 	}
 	log.Println("config yamlFile load Init success.")
-	fmt.Println(c)
+	global.Config = c
 }

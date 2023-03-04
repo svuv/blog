@@ -6,5 +6,5 @@ type Mysql struct {
 	DB       string `yaml:"db"`
 	User     string `yaml:"user"`
 	Password string `yaml:"password"`
-	LogLevel string `yaml:"log-level"` //日志等级，debug就是输出全部sql。dev,release
+	LogLevel string `yaml:"log_level"` //日志等级，debug就是输出全部sql。dev,release
 }

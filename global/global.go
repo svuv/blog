@@ -2,6 +2,7 @@ package global
 
 import (
 	"blog/config"
+	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"
 )
 
@@ -13,4 +14,5 @@ import (
 var (
 	Config *config.Config
 	DB     *gorm.DB
+	Log    *logrus.Logger
 )

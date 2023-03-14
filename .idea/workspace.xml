@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="093ab704-d12b-419d-bdee-0308bfdd5745" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/settings_api/enter.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/conf_system.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/conf_system.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/gorm.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/gorm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/logrus.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/logrus.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/settings.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/enter.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/enter.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

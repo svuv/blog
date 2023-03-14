@@ -1,7 +1,6 @@
 package router
 
 import (
-	"blog/api"
 	"blog/global"
 	"github.com/gin-gonic/gin"
 )
@@ -14,7 +13,6 @@ import (
 func InitRouter() *gin.Engine {
 	gin.SetMode(global.Config.System.Env)
 	router := gin.Default()
-	settingsApi := api.ApiGroupApp.SettingsApi
-	router.GET("", settingsApi.SettingsInfoView)
+	SettingsRouter(router)
 	return router
 }
